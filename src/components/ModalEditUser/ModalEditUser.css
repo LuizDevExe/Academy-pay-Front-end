@@ -1,0 +1,131 @@
+.modal-edit-user-page {
+  width: 92.5%;
+  height: 100%;
+  background-color: rgb(145, 154, 150, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+
+  backdrop-filter: blur(3px);
+  z-index: 10;
+}
+
+.modal-edit-user-container {
+  width: 490px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.modal-edit-user-close-icon {
+  margin-left: 410px;
+  margin-bottom: 45px;
+  cursor: pointer;
+}
+
+#modal-edit-user-title {
+  margin-top: -30px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-family: Montserrat;
+  color: #343447;
+  font-weight: 700;
+}
+
+.modal-edit-user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-edit-user-cpf-phone {
+  display: flex;
+}
+
+.modal-edit-user-cpf,
+.modal-edit-user-phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.modal-edit-user-cpf-phone input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.modal-edit-user-form label,
+.modal-edit-user-cpf-phone label {
+  margin-top: 20px;
+  color: #667085;
+  font-family: "Nunito", sans-serif;
+}
+
+.modal-edit-user-form input,
+.modal-edit-user-cpf-phone input {
+  width: 380px;
+  height: 45px;
+  padding: 10px 14px 10px 14px;
+  font-family: "Nunito", sans-serif;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  font-size: 15px;
+  display: flex;
+}
+
+.modal-edit-user-cpf-phone input {
+  width: 177px;
+}
+
+.modal-edit-user-phone {
+  margin-left: 25px;
+}
+
+.modal-edit-user-button-submit {
+  width: 160px;
+  height: 35px;
+  color: white;
+  background-color: #da0175;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.modal-edit-user-button-submit:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  scale: 1.02;
+}
+
+.modal-edit-user-cpf span,
+.modal-edit-user-form span {
+  font-size: 14px;
+  color: #e70000;
+  margin-top: 6px;
+}
+
+.modal-edit-user-sucess {
+  margin-left: 100px;
+  width: 600px;
+  height: 510px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal-edit-user-sucess h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #343447;
+  margin-top: 24px;
+  font-size: 25px;
+}

@@ -1,0 +1,18 @@
+.loading-modal-page {
+    width: 92.5%;
+    height: 100%;
+    background-color: rgb(145, 154, 150, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    backdrop-filter: blur(3px);
+    z-index: 10;
+}
+
+.loading-modal-page img {
+    width: 80px;
+    height: 80px;
+}

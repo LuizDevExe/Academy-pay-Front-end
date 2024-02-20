@@ -1,0 +1,56 @@
+.container-navbar {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-navbar nav {
+  width: 7.5%;
+  height: 100vh;
+
+  background: #f0f0f5;
+}
+
+.container-outlet-pages {
+  width: 92.5%;
+  background-color: #f8f8f9;
+  overflow-x: hidden;
+}
+
+
+.navbar-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  margin-top: 2.81rem;
+}
+
+.navbar-btns div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.navbar-btns img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.navbar-btns span,
+.navbar-active-btn span {
+  color:  #343447;
+  font-family: Nunito;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.navbar-active-btn div {
+  border-right: 3px solid #DA0175;
+}
+
+.navbar-active-btn span {
+  color: #DA0175;
+}

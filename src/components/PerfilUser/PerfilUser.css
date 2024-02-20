@@ -1,0 +1,55 @@
+.container-user-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container-user-content-data {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.container-user-initial {
+  text-transform: uppercase;
+}
+
+.container-user-content-data h3 {
+  font-family: Nunito;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  color: #0e8750;
+}
+
+.container-user-content-data img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.container-user-content-data img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.container-user-initial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+
+  border-radius: 5rem;
+  background-color: #dedee9;
+}
+
+.container-user-initial h2 {
+  font-family: Nunito;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #0e8750;
+}

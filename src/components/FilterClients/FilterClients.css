@@ -1,0 +1,76 @@
+.filter-clients {
+    width: 330px;
+    display: flex;
+    background-color: white;
+    border-radius: 1.875rem;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    position: fixed;
+    top: 13rem;
+    z-index: 10;
+    box-shadow: 0px 4px 42px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+.filter-clients-checkbox {
+    width: 264px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    background-color: #F0F0F5;
+    border-radius: 10px;
+    padding-left: 10px;
+    gap: 8px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.sqr-filter-client-charge {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    border-radius: 3px;
+    transform: rotate(45deg);
+    right: 35px;
+    top: -12px;
+}
+
+.filter-clients button {
+    display: flex;
+    width: 180px;
+    height: 30px;
+    padding: 2px 0px 3px 0px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #DA0175;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 1336px) {
+    .filter-clients {
+        right: 26rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .filter-clients {
+        right: 27rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .filter-clients {
+        right: 27.8rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .filter-clients {
+        right: 32rem;
+    }
+}

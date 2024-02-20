@@ -1,0 +1,100 @@
+.billing-detail-modal-page {
+    width: 92.5%;
+    height: 100%;
+    background-color: rgb(145, 154, 150, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    backdrop-filter: blur(3px);
+    z-index: 10;
+}
+
+.billing-detail-modal-container {
+    width: 600px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.billing-detail-modal-container h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #3f3f55;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.billing-detail-modal-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.billing-detail-modal-close-icon {
+    top: 22px;
+    right: 24px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.billing-detail-modal-file-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    margin-left: -9px;
+}
+
+.billing-detail-modal-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #3f3f55;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.billing-detail-modal-form h3 {
+    color: #3f3f55;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.billing-detail-modal-form p {
+    color: #3f3f55;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    margin-bottom: 24px;
+}
+
+.billing-detail-modal-name-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.billing-detail-modal-maturity-value {
+    display: flex;
+    gap: 30%;
+}
+
+.billing-detail-modal-id-status {
+    display: flex;
+    gap: 30%;
+}

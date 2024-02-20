@@ -1,0 +1,98 @@
+.container-transactionDetails {
+  width: 27.29%;
+  filter: drop-shadow(0px 4px 4px rgba(172, 217, 197, 0.25));
+}
+
+.window-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 3.625rem;
+
+  padding: 0 6.67% 0 15.56%;
+  border-bottom: 1px solid #eff0f6;
+}
+
+.window-header h3 {
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+
+  color: #3f3f55;
+}
+
+.window-header h4 {
+  padding: 0rem 0.9375rem;
+  margin-right: 0.3rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.window-header table {
+  height: 18.1875rem;
+}
+
+.window-header table th {
+  font-family: Nunito;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.125rem;
+  letter-spacing: 0.005rem;
+  color: #3f3f55;
+}
+
+.window-header-tr-header-transaction-details {
+  height: 4.12rem;
+}
+
+.window-header-tr-header-transaction-details th {
+  font-family: Nunito;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.125rem;
+  letter-spacing: 0.005rem;
+  color: #3F3F55;
+}
+
+.window-header-tr-body-transaction-details {
+  font-family: Nunito;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5rem;
+  letter-spacing: 0.00438rem;
+  color: #6e6e85;
+
+}
+
+.container-expand-list {
+  display: flex;
+  justify-content: center;
+
+  margin: 0.81rem 0 0.75rem 0;
+
+  font-family: Nunito;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  text-decoration-line: underline;
+
+  color: #da0175;
+}
+
+.container-expand-list a:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+  cursor: pointer;
+}

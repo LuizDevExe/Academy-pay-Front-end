@@ -1,0 +1,64 @@
+.container-home header {
+  display: flex;
+  justify-content: space-between;
+
+  height: 4.5rem;
+  width: 95.2%;
+  margin: 2.5rem auto 1.19rem auto;
+  padding: 0 6.58rem 0 3.13rem;
+
+  border-bottom: 1px solid #acd9c5;
+}
+
+.container-home header h1 {
+  display: flex;
+  align-items: center;
+
+  font-family: Montserrat;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  color: #343447;
+}
+
+.section-transaction-summary {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.section-transactionDetail {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.section-clients-resume {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+@media (max-height: 1090px) {
+  .container-data {
+    height: 70vh;
+    margin: auto;
+    margin-left: 0.3%;
+    overflow-y: scroll;
+  }
+
+  .container-data::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .container-data::-webkit-scrollbar-thumb {
+    background-color: #da0175;
+    border-radius: 20px;
+  }
+}

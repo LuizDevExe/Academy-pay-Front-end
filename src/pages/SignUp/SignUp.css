@@ -1,0 +1,319 @@
+.container-main-signUp {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-main-signUp h1 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+
+    color: var(--cinzas-cinza-1, #343447);
+}
+
+.container-main-signUp h2 {
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    color: var(--principais-verde-normal, #0E8750);
+}
+
+.container-main-signUp p {
+    font-family: Nunito;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+
+    color: var(--cinzas-cinza-2, #3F3F55);
+}
+
+.asside-signUp-flux {
+    display: flex;
+    width: 31.25rem;
+    height: 100vh;
+
+    background: var(--cinzas-cinza-7, #F0F0F5);
+}
+
+.asside-signUp-flux section {
+    display: flex;
+    gap: 1.5rem;
+
+    margin: 10.88rem 3.87rem 0 3.06rem;
+}
+
+.asside-img-flux img {
+    height: 12rem;
+}
+
+.asside-flux-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    padding-top: 0.25rem;
+}
+
+
+.asside-flux-info div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
+.container-main-form {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+   
+}
+
+.section-form-singUp {
+    width: 23.18rem;
+    height: 23rem;
+
+    margin: 13rem 0 0 0;
+}
+
+.section-form-singUp h1 {
+    margin: 1.69rem 0 2rem 0;
+}
+
+.section-form-singUp form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+/* Classe normal da div form */
+
+.div-section-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.38rem;
+    width: 23rem;
+    height: 4.37rem;
+}
+
+.section-form-error div {
+    margin-bottom: 3rem;
+}
+
+.div-section-form label {
+    font-family: Nunito;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: #344054;
+}
+
+.div-section-form input {
+    height: 2.75rem;
+    padding: 0.625rem 0.875rem;
+    align-self: stretch;
+
+    border-radius: 0.5rem;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+
+    color: var(--gray-500, #667085);
+}
+
+/* Classe normal da div form */
+
+/* Classe com error da div form */
+.div-section-form-error {
+    display: flex;
+    flex-direction: column;
+    gap: 0.38rem;
+    width: 23rem;
+    height: 6rem;
+}
+
+.div-section-form-error label {
+    font-family: Nunito;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: #344054;
+}
+
+.div-section-form-error input {
+    height: 2.75rem;
+    padding: 0.625rem 0.875rem;
+    align-self: stretch;
+
+    border-radius: 0.5rem;
+    border: 1px solid #E70000;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+
+    color: var(--gray-500, #667085);
+}
+
+.div-section-form-error span {
+
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+
+    color: #E70000;
+}
+
+/* Classe com error da div form */
+
+.container-main-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+
+    height: 2.06rem;
+    margin: 1.53rem 0;
+    padding: 0.25rem 2.5rem;
+
+    border-radius: 0.625rem;
+
+    font-family: Nunito;
+    font-size: 1.125rem;
+    font-weight: 400;
+
+    color: var(--cinzas-cinza-8, #F8F8F9);
+    background: #DA0175;
+}
+
+.container-main-form button:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.container-main-form p {
+    margin-top: -0, 31rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container-main-form a {
+    font-family: Nunito;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 130%;
+    text-decoration-line: underline;
+
+    color: var(--principais-rosa-normal, #DA0175);
+}
+
+.section-form-registered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 11vh 0 0 0 ;
+}
+
+.section-form-registered button {
+    margin: 1.5rem 0;
+}
+
+
+.registered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    width: 37.5rem;
+    height: 32rem;
+
+
+    border-radius: 1.875rem;
+    background: #F0F0F5;
+}
+
+.registered-container img {
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+.container-main-form a {
+    font-family: Nunito;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 130%;
+    text-decoration-line: underline;
+
+    color: var(--principais-rosa-normal, #DA0175);
+}
+
+.stepper-fucntion,
+.stepper-fucntion-registered{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 20vh;
+}
+
+
+.stepper-fucntion div,
+.stepper-fucntion-registered div {
+    width: 5.125rem;
+    height: 0.375rem;
+
+    background-color: #DEDEE9;
+    border-radius: 3rem;
+}
+
+
+#stepper-fucntion-active, #stepper-fucntion-registered{
+    background-color: #0E8750;
+}
+
+@media (max-height: 784px){
+    .stepper-fucntion{
+        margin-top: 10vh;
+    }
+    
+    .stepper-fucntion-registered{
+        margin-top: 1vh;
+    }
+    
+}
+
+@media (max-height: 981px){
+    .stepper-fucntion-registered{
+        margin-top: 10vh;
+    }
+}
+
+@media (max-height: 868px){
+    .stepper-fucntion-registered{
+        margin-top: 5vh;
+    }
+}

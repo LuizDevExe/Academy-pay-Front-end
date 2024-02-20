@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+button {
+  border: none;
+}
+
+.pop-up-message-error {
+  display: flex;
+  gap: 0.5rem;
+  position: absolute;
+  bottom: 10rem;
+  transition: 600ms;
+
+  padding: 0.8rem  1rem;
+
+  border-radius: 2rem;
+
+  font-family: Nunito;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  color: #F8F8F9;
+  background-color: #DA0175;
+}
+
+.pop-up-message-error igm {
+  color: #F8F8F9;
+}

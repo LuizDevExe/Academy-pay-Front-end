@@ -1,0 +1,41 @@
+.container-transaction-resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.38rem;
+
+  width: 27.03%;
+  height: 6.9375rem;
+
+  border-radius: 1.875rem;
+}
+.container-transaction-resume div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.69rem;
+}
+
+.container-transaction-resume img {
+  width: 2.00525rem;
+  height: 2.11456rem;
+}
+
+.container-transaction-resume h3 {
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+
+  color: #3f3f55;
+}
+
+.container-transaction-resume h2 {
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: #3f3f55;
+}
