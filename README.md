@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/86445fe0-460c-42d7-8168-6ceafe40d56a)![](https://i.imgur.com/xG74tOh.png)
+
 
 
 # Academy Pay
