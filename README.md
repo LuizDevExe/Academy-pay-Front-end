@@ -1,4 +1,4 @@
-![](https://i.imgur.com/xG74tOh.png)
+![image](https://github.com/user-attachments/assets/86445fe0-460c-42d7-8168-6ceafe40d56a)![](https://i.imgur.com/xG74tOh.png)
 
 
 # Academy Pay
@@ -28,9 +28,13 @@ O layout da aplicação está disponível no figma:
 
 ### Web
 
-![image](https://github.com/LuizDevExe/Academy-pay/assets/109562299/5638ae2e-a60f-409b-aa0a-9aedcff5add0)
-![image](https://github.com/LuizDevExe/Academy-pay/assets/109562299/5f70ad18-fe0c-45b1-a7a1-441e75669d98)
-![image](https://github.com/LuizDevExe/Academy-pay/assets/109562299/a831b569-5994-4257-b0bc-fb8a06c14eda)
+![image](https://github.com/Kauanedev/academy-pay/raw/main/assets/login-page.png)
+![image](https://github.com/user-attachments/assets/122468e8-1458-4b86-a687-1a245269b78f)
+![image](https://github.com/user-attachments/assets/d3fc0813-c883-4240-b8c5-0ee0f13c004a)
+![image](https://github.com/user-attachments/assets/ff15f201-1e94-4cd6-a44a-98034e6a266e)
+
+![image](https://github.com/user-attachments/assets/0c25bd6f-3f60-4aa6-ad5f-6cbfc9b2083e)
+
 
 ## Como executar o projeto
 
